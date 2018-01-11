@@ -5,6 +5,7 @@ const portNum = 8000;
 const express = require('express');
 const app = express();
 //line 8-23 copy pasted code from twilio node api https://www.twilio.com/docs/quickstart/node/programmable-voice#receiving-phone-calls
+//however for an MVP we can do something with just a form
 const http = require('http');
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
